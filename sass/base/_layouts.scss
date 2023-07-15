@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+
+    color: $primary-text-color;
+    background-color: $primary-bg-color;
+    font-size: $body-font-size;
+    font-family: $body-font-family;
+    letter-spacing: $body-letter-spacing;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
