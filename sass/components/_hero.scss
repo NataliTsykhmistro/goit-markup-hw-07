@@ -1,0 +1,36 @@
+.overlay {
+    height: 600px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: 
+    linear-gradient( 
+        to right, 
+        $bgimg-overlay,
+        $bgimg-overlay) ,
+    url(../img/overlay.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.hero {
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.hero-title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-top: 200px;
+
+    color: $title-text-color;
+    width: 696px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}

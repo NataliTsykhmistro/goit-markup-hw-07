@@ -40,7 +40,28 @@ ul {
     margin-right: auto;
 }
 
+.main-nav {
+    display: flex;
+
+}
+
+.site-nav {
+    display: flex;
+}
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.section-title,
+.section-work__title {
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    color: $primary-text-color;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }

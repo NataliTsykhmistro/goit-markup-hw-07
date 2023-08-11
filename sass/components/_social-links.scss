@@ -1,0 +1,52 @@
+.social-links {
+    display: flex;
+    margin-left: auto;
+}
+
+.social-links .item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.social-links a {
+    padding: 0;
+    margin: 0;
+
+    color: $secondary-text-color;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+}
+
+.social-links .item {
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
+
+.contacts-mail,
+.contacts-tel {
+    display: flex;
+    align-items: center;
+    color: inherit;
+
+    transition: color 250ms $timing-function;
+}
+
+.contacts-mail:hover,
+.contacts-mail:focus {
+    color: $accent-color;
+}
+
+.contacts-tel:hover,
+.contacts-tel:focus {
+    color: $accent-color;
+}
+
+.icon-envelope,
+.icon-smartphone {
+    margin-right: 10px;
+    fill: currentColor;
+}
