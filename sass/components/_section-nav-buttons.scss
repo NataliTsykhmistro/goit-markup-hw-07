@@ -1,0 +1,16 @@
+.portfolio__title {
+    display: none;
+
+    visibility: hidden;
+    margin-bottom: 0;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    &__list:not(:last-child) {
+            margin-right: 8px;
+        }
+    }

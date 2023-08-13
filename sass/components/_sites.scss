@@ -1,0 +1,30 @@
+.sites {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $card-sites-gap;
+
+}
+
+.sites__list {
+    flex-basis: calc((100% - 2 * $card-sites-gap)/ 3);
+    background: $primary-bg-color;
+
+    &:hover .sites__overlay,
+    &:focus .sites__overlay {
+            opacity: 1;
+            transform: translateY(0);
+    
+        }
+}
+
+.sites__link {
+    display: block;
+    text-decoration: none;
+    transition: box-shadow 250ms $timing-function;
+
+    &:hover,
+    &:focus {
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+        }
+}
+
